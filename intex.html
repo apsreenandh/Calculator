@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <input type="" id="display">
+        <div class="button_grid">
+            <button onclick="clearDisplay()" class="row_1">C</button>
+            <button onclick="del()" class="row_1">⇦</button>
+            <button onclick="btnClick('%')" class="row_1">%</button>
+            <button onclick="btnClick('/')" class="column_4">/</button>
+            <button onclick="btnClick(7)" class="num_button">7</button>
+            <button onclick="btnClick(8)" class="num_button">8</button>
+            <button onclick="btnClick(9)" class="num_button">9</button>
+            <button onclick="btnClick('*')" class="column_4">x</button>
+            <button onclick="btnClick(4)" class="num_button">4</button>
+            <button onclick="btnClick(5)" class="num_button">5</button>
+            <button onclick="btnClick(6)" class="num_button">6</button>
+            <button onclick="btnClick('-')" class="column_4">-</button>
+            <button onclick="btnClick(1)" class="num_button">1</button>
+            <button onclick="btnClick(2)" class="num_button">2</button>
+            <button onclick="btnClick(3)" class="num_button">3</button>
+            <button onclick="btnClick('+')" class="column_4">+</button>
+            <button onclick="history()" class="num_button">⟲</button>
+            <button onclick="btnClick(0)" class="num_button">0</button>
+            <button onclick="btnClick('.')" class="num_button">.</button>
+            <button onclick="result()" class="column_4">=</button>
+        </div>
+    </div>
+</body>
+</html>
