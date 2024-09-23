@@ -61,4 +61,13 @@ button:active{
 .column_4:hover{background-color: #fd943f;}
 .row_1:hover{background-color: #a0a0a0;}
 
-
+@media only screen and (max-width: 600px) {
+    body{padding:50px 0;}
+    .container{
+        width: 300px;
+        margin: auto;
+        height: 500px;
+    }
+    #display{width: 280px;}
+    .button_grid{height: 315px;}
+}
